@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>my awesome viz</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
 
-    <div class="container">    
-      <div class="row">
-	<div class="col-sm-6 col-sm-offset-3">
-	  <div id="myfigure">
-	  </div> <!-- col -->
-	</div> <!-- col -->
-      </div> <!-- row -->
-    </div> <!-- container -->
-	    
-    <!-- page content -->
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/d3.v4.js"></script>    
-    <script src="js/my-viz.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Money Spent at Amazon in 2019</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center">Money Spent at Amazon in 2019</h1>
+        <div id="myfigure" class="text-center">
+        </div> <!-- col -->
+      </div> <!-- col -->
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center">This dataset is an aggregation of the money I spent at Amazon in 2019 by day.</p>
+      </div>
+      <div class="col-sm-8 col-sm-offset-2">
+        <p>Some insights:
+          <ul>
+            <li>Saturdays appear to be the day when most purchases are made</li>
+            <li>Spending increases toward the end of the year around the holidays</li>
+            <li>There's an uptick in purchases the first week of September due to moving to a new house on 8/31</li>
+            <li>Black Friday appears to be one of the highest spending days</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div> <!-- container -->
+
+  <!-- page content -->
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/d3.v4.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/my-viz.js"></script>
+</body>
+
 </html>
