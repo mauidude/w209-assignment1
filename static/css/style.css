@@ -1,0 +1,23 @@
+#tooltip {
+    position: absolute;
+    background: #888;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, .5);
+}
+
+.xaxis text {
+    cursor: pointer;
+}
+
+.xaxis text:hover {
+    font-weight: bold;
+}
+
+text.total {
+    font-weight: bold;
+    font-size: 10pt;
+    text-shadow: 0px 1px 1px #ddd;
+}
